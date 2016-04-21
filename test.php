@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: SerP
+ * User: Sergey Gusarov
  * Date: 20.04.2016
  * Time: 21:27
  */

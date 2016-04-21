@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: SerP
+ * User: Sergey Gusarov
  * Date: 20.04.2016
  * Time: 21:27
  */
@@ -11,13 +11,12 @@ echo 'http wrapper: ', in_array('http', $w) ? 'yes':'no', "\n";
 echo 'https wrapper: ', in_array('https', $w) ? 'yes':'no', "\n";
 echo 'wrappers: ', var_dump($w);
 */
-/*
+
 $functions = get_extension_funcs('soap');
 echo "Functions available in the test extension:<br>\n";
 foreach($functions as $func) {
     echo $func . "\n";
 }
-*/
 
 $username = "";
 $password = "";
@@ -78,8 +77,8 @@ try {
 
 
     // Вывод всех
-    //var_dump($client->__getTypes());
-    //var_dump($client->__getFunctions());
+    var_dump($client->__getTypes());
+    var_dump($client->__getFunctions());
     /*
         $query=" <soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:req=\"http://request.services\">
            <soap:Header/>
